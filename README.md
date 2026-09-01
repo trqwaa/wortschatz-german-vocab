@@ -53,3 +53,14 @@ Requires [Python 3.10+](https://www.python.org/downloads/) installed.
 - Web version built with Flask, to use from a smartphone
 - Flashcard-style review mode
 - Text-to-speech pronunciation
+
+## Changelog v1.1
+
+| Feature | Description |
+|---|---|
+| Fullscreen | Press **F11** to toggle fullscreen mode |
+| Flashcards | New tab that quizzes you on words currently in the "Learning" category |
+| Language switcher | Dropdown at the top of the window — switches the interface itself between Russian / English / German (doesn't affect saved words) |
+| New word indicator | A red dot appears on the "Dictionary" tab when a word was added and not yet viewed |
+| Automatic retry on translation errors | The app now retries a few times before showing a translation error |
+| Alphabetical sorting | The "Learned" tab is now sorted alphabetically; "New" and "Learning" keep insertion order |
