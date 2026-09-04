@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 90 python probe6.py)",
+      "PowerShell($d = \"C:\\\\Users\\\\Tima\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--words-db\\\\dcca72bb-2fe2-4b1b-8103-115148a72494\\\\scratchpad\"; & \"$d\\\\shot.ps1\" -Script \"t4_layout.py\" -PyArgs \"0.05 0\" -Out \"lay_005.png\")",
+      "PowerShell($d = \"C:\\\\Users\\\\Tima\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--words-db\\\\dcca72bb-2fe2-4b1b-8103-115148a72494\\\\scratchpad\"; python \"$d\\\\t4_layout.py\" 0.05 0; Write-Output \"exit=$LASTEXITCODE\")",
+      "Bash(timeout 90 python probe7.py)"
+    ]
+  }
+}
